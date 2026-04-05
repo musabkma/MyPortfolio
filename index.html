@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles2.css">
+    <title>Welcome to My Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">Portfolio.</a>
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+            </button>
+
+            <nav id="site-nav" class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="page-section page-home">
+                <div class="section-card home-card">
+                    <div class="home-grid">
+                        <div class="content">
+                            <p class="eyebrow">Hello, I’m</p>
+                            <h1 class="headline">Mosab Khalid</h1>
+
+                            <h2 class="job">
+                                <span class="accent">Front-End Developer</span>
+                            </h2>
+
+                            <p class="lead">
+                                I build responsive, modern user interfaces with clean code and strong attention to detail.
+                                Currently focused on JavaScript and real-world frontend projects.
+                            </p>
+
+                            <div class="buttons">
+                                <a href="cv.pdf" download class="btn primary">Download CV</a>
+                                <a href="#projects" class="btn secondary">View Work</a>
+                            </div>
+
+                            <div class="quick-meta">
+                                <span class="pill">UI / UX</span>
+                                <span class="pill">Responsive Design</span>
+                                <span class="pill">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="photo">
+                            <img src="Material/me finalpng.PNG" alt="Portrait of Mosab Khalid, Frontend Developer">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="page-section page-about">
+                <div class="section-card">
+                    <div class="section-header">
+                        <h2>About</h2>
+                        <p class="section-subtitle">A quick snapshot of who I am and how I work.</p>
+                    </div>
+
+                    <div class="about-grid">
+                        <div class="about-bio">
+                            <h3>Building clean, confident interfaces</h3>
+                            <p>
+                                I’m a frontend developer who enjoys turning ideas into fast, accessible, and polished user experiences.
+                                I like structured layouts, consistent spacing, and tiny details that make the UI feel “alive”.
+                            </p>
+                            <div class="about-highlights">
+                                <div class="mini-card">
+                                    <p class="mini-title">Focus</p>
+                                    <p class="mini-value">Frontend • JS • UI</p>
+                                </div>
+                                <div class="mini-card">
+                                    <p class="mini-title">Strength</p>
+                                    <p class="mini-value">Responsive layouts</p>
+                                </div>
+                                <div class="mini-card">
+                                    <p class="mini-title">Style</p>
+                                    <p class="mini-value">Minimal + modern</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-timeline">
+                            <h3>What I’m doing now</h3>
+                            <ul class="timeline">
+                                <li class="timeline-item">
+                                    <span class="dot"></span>
+                                    <div>
+                                        <p class="timeline-title">Leveling up JavaScript</p>
+                                        <p class="timeline-desc">DOM, async patterns, and practical frontend patterns.</p>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <span class="dot"></span>
+                                    <div>
+                                        <p class="timeline-title">Building projects</p>
+                                        <p class="timeline-desc">Small-to-medium apps to practice real UI workflows.</p>
+                                    </div>
+                                </li>
+                                <li class="timeline-item">
+                                    <span class="dot"></span>
+                                    <div>
+                                        <p class="timeline-title">Polishing UI details</p>
+                                        <p class="timeline-desc">Typography, spacing, hover states, and accessibility.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="page-section page-projects">
+                <div class="section-card">
+                    <div class="section-header">
+                        <h2>Projects</h2>
+                        <p class="section-subtitle">A few things I’ve built (more coming soon).</p>
+                    </div>
+
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-top">
+                                <p class="project-tag">UI</p>
+                                <h3 class="project-title">Portfolio Website</h3>
+                            </div>
+                            <p class="project-desc">A clean, modern portfolio with smooth sections and responsive layout.</p>
+                            <div class="project-actions">
+                                <a class="btn secondary" href="#contact">Request Demo</a>
+                                <a class="btn ghost" href="#home">Back to Top</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-top">
+                                <p class="project-tag">JavaScript</p>
+                                <h3 class="project-title">Interactive Component</h3>
+                            </div>
+                            <p class="project-desc">A small JS component focused on clean UX and state handling.</p>
+                            <div class="project-actions">
+                                <a class="btn secondary" href="#contact">Talk about it</a>
+                                <a class="btn ghost" href="#about">About me</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-top">
+                                <p class="project-tag">Responsive</p>
+                                <h3 class="project-title">Landing Page</h3>
+                            </div>
+                            <p class="project-desc">A responsive page with strong typography and section rhythm.</p>
+                            <div class="project-actions">
+                                <a class="btn secondary" href="#contact">Get link</a>
+                                <a class="btn ghost" href="#home">Home</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="page-section page-contact">
+                <div class="section-card">
+                    <div class="section-header">
+                        <h2>Contact</h2>
+                        <p class="section-subtitle">Let’s build something clean and modern.</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <div class="contact-cards">
+                            <div class="info-card">
+                                <p class="info-label">Email</p>
+                                <a class="info-value" href="mailto:mosab@example.com">mosab@example.com</a>
+                            </div>
+                            <div class="info-card">
+                                <p class="info-label">Location</p>
+                                <p class="info-value">Saudi Arabia (Remote-friendly)</p>
+                            </div>
+                            <div class="info-card">
+                                <p class="info-label">Availability</p>
+                                <p class="info-value">Open to opportunities</p>
+                            </div>
+                        </div>
+
+                        <form class="contact-form" action="#" method="post">
+                            <div class="field-row">
+                                <label class="field">
+                                    <span>Name</span>
+                                    <input type="text" name="name" placeholder="Your name" autocomplete="name" required>
+                                </label>
+                                <label class="field">
+                                    <span>Email</span>
+                                    <input type="email" name="email" placeholder="you@email.com" autocomplete="email" required>
+                                </label>
+                            </div>
+
+                            <label class="field">
+                                <span>Message</span>
+                                <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                            </label>
+
+                            <div class="form-actions">
+                                <button class="btn primary" type="submit">Send</button>
+                                <a class="btn ghost" href="#home">Back to top</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
