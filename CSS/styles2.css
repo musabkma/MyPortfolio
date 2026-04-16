@@ -488,7 +488,7 @@ main {
 
 .project-top {
     display: grid;
-    gap: 6px;
+    gap: 8px;
 }
 
 .project-tag {
@@ -501,7 +501,7 @@ main {
 .project-title {
     color: var(--text);
     font-family: "Roboto Slab", serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .project-desc {
